@@ -96,6 +96,7 @@
   margin-bottom: 5px;
 }
 
+
 /* Media query for responsiveness */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .input {
@@ -109,6 +110,13 @@
     /* margin-left: 430px; */
     margin-bottom: 5px;
   }
+  .input{
+    width: 80%;
+  }
+  .footer-logo img{
+    width: 160px;
+  }
+
 }
 @media screen and (max-width: 481px) {
   .input {
@@ -134,4 +142,12 @@
   /* #Add-product {
     margin-left: 113px;
   } */
+  .card-container{
+    display: flex;
+    flex-direction: column;
+  }
+    .card-box{
+    width: 100%;
+    
+  }
 }

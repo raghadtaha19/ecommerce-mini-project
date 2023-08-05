@@ -22,6 +22,9 @@
     
   </style>
 </head>
+<body>
+  
+</body>
 
 </html>
 
@@ -36,14 +39,10 @@ include("slider.html");
 
 foreach ($_SESSION["cards"] as $value) {
   echo '<div class="card-box">'; // Use col-4 to divide the row into 3 columns
-  // echo '<div class="card">';
   echo '<img class="cardimg" src="images/' . trim($value[2], 'uploads/') . '" alt="Card image cap">';
-  // echo '<div class="cardbody">';
   echo '<h5 class="title">' . $value[0] . '</h5>';
   echo '<p class="text">' . $value[1] . '</p>';
   echo '<p class="price">' . $value[3] . '</p>';
-  // echo '</div>';
-  // echo '</div>';
   echo '</div>';
 }
 
@@ -52,7 +51,7 @@ foreach ($_SESSION["cards"] as $value) {
 
 // session_unset();
 // session_destroy();
-echo '<a href="index.php" style=text-decoration:none><button class="go-back">Back to home</button></a>';
+// echo '<a href="index.php" style=text-decoration:none><button class="go-back">Back to home</button></a>';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -91,17 +90,7 @@ echo '<a href="index.php" style=text-decoration:none><button class="go-back">Bac
             font-weight: bold;
         }
        
-    @media screen and (max-width: 481px) {
-      .card-container{
-      display: flex;
-      flex-direction: column;
-    }
-      .card-box{
-      width: 100%;
-      
-    }
-   
-    }
+ 
   </style>
 </head>
 <body>
@@ -150,10 +139,9 @@ echo '<a href="index.php" style=text-decoration:none><button class="go-back">Bac
     </div>
     <div class="footer-links">
       <p  style="font-weight:bold" >Useful Links</p>
-      <a href="#">Home</a>
-      <a href="#">About</a>
+      <a href="index.php">Home</a>
+      <a href="#">Shop</a>
       <a href="#">Services</a>
-      <a href="#">Portfolio</a>
       <a href="#">Contact</a>
     </div>
     <div class="footer-contact">
@@ -174,26 +162,4 @@ echo '<a href="index.php" style=text-decoration:none><button class="go-back">Bac
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
   integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  </head>
-  <style>
-    @media screen and (min-width:481px) and (max-width:768px){
-    .input{
-      width: 80%;
-    }
-    .footer-logo img{
-      width: 160px;
-    }
   
-
-  }
-  </style>
-  <body>
-    
-  </body>
-  </html>

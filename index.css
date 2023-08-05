@@ -1,4 +1,3 @@
-
 .footer_style {
   display: flex;
   flex-direction: row;
@@ -60,16 +59,22 @@
   display: block;
   margin-bottom: 10px;
 }
-
+#img_background{
+  background-image: url(./images/12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .input {
-  border: 2px solid black;
+  /* background-color: red; */
+  /* border: 2px solid black; */
+  text-align: left;
   border-radius: 5px;
-  margin: 30px auto;
-  /* background-color: rgb(227, 228, 236); */
+  margin: 30px ;
   width: 60%;
   font-weight: bolder;
   padding: 10px;
-  background-image: url(/images/8.jpg);
+ 
+  
 }
 
 .inp {
@@ -126,5 +131,7 @@
     margin-left: 110px;
     margin-bottom: 5px;
   }
- 
+  /* #Add-product {
+    margin-left: 113px;
+  } */
 }

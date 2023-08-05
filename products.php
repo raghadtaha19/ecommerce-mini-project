@@ -100,6 +100,7 @@ echo '<a href="index.php" style=text-decoration:none><button class="go-back">Bac
       width: 100%;
       
     }
+   
     }
   </style>
 </head>

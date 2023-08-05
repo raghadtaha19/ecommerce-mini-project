@@ -53,8 +53,10 @@
   ?>
 
   <!-- form-section  -->
-  <h2 id="begin">ADD YOUR PRODUCT,PLEASE!</h2>
-  <div class="container-fluid">
+            
+  <h1 style="text-align: center;margin-top: 10px">What matters most,<br> right on your wrist.</h1>
+  
+  <div class="container-fluid" id="img_background">
     <form action="# " method="POST" class="input">
       <label>Enter the product name:</label>
       <input type="text" name="product_name" class="inp" Required><br><br>

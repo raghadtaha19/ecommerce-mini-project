@@ -1,0 +1,130 @@
+
+.footer_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer {
+  background-color: #04090f;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-logo img {
+  width: 300px;
+  padding-top: 5px;
+}
+
+.footer-social {
+  padding: 15px;
+}
+
+.social-icon {
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+  color: blue;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.titles {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.card-body {
+  background-color: #e0e8f1;
+}
+.go-back {
+  background-color: #04090f;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  text-decoration: none !important;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 30px auto;
+  /* background-color: rgb(227, 228, 236); */
+  width: 60%;
+  font-weight: bolder;
+  padding: 10px;
+  background-image: url(/images/8.jpg);
+}
+
+.inp {
+  width: 60%;
+}
+.inpp {
+  width: 55%;
+}
+.table {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 30px auto;
+  font-weight: bolder;
+  padding: 10px;
+}
+#view {
+  font-size: 25px;
+  margin-left: 650px;
+  margin-bottom: 5px;
+}
+
+/* Media query for responsiveness */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .input {
+    width: 80%;
+  }
+  .footer-logo img {
+    width: 160px;
+  }
+  #view {
+    font-size: 15px;
+    /* margin-left: 430px; */
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 481px) {
+  .input {
+    width: 90%;
+  }
+  .footer_style {
+    display: block;
+  }
+  .footer-links {
+    align-items: center;
+  }
+  .social {
+    margin: auto;
+  }
+  .footer-contact {
+    align-items: center;
+  }
+  #view {
+    font-size: 15px;
+    margin-left: 110px;
+    margin-bottom: 5px;
+  }
+ 
+}

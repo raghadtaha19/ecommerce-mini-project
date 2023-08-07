@@ -43,13 +43,15 @@
   <?php
   session_start();
   include('nav.html');
+  // include('test.html');
+
 
   ?>
 
   <!-- form-section  -->
             
-  <h1 style="text-align: center;margin-top: 10px">What matters most,<br> right on your wrist.<svg xmlns="http://www.w3.org/2000/svg" height="0.9em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg></h1>
-  <div style="text-align: center"><iframe   width="560" height="315" src="https://www.youtube.com/embed/UfawgQJICU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <h1 style="text-align: center;margin-top: 10px">What matters most,<br> right on your wrist.<svg xmlns="http://www.w3.org/2000/svg" height="0.9em" viewBox="0 0 512 512">! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg></h1>
+  <div id="videoo"style="text-align: center"><iframe style="border-radius: 20px"  width="560" height="315" src="https://www.youtube.com/embed/UfawgQJICU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
   <div class="container-fluid" id="img_background">
     <form action="# " method="POST" class="input">
       <label>Enter your watch name:</label>
@@ -63,7 +65,7 @@
 
       <label>Enter watch price:</label>
       <input type="text" name="product_price" class="inp" Required><br><br>
-      <input type="submit" value="Add Product" id="Add-product">
+      <input type="submit" value="Add Watch" id="Add-product" style="border-radius: 5px;color:#FE91C6;padding:5px">
     </form>
   </div>
   </form>
@@ -125,7 +127,7 @@
   ?>
 
   <form action="products.php" method="post">
-    <input id="view" type="submit" value="view products" style="border-radius: 5px;color:#FE91C6">
+    <input id="view" type="submit" value="View Watches" style="border-radius: 5px;color:#FE91C6;padding:5px">
   </form>
 
   <!-- footer-section -->
